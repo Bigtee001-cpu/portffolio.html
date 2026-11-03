@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal portfolio of a frontend developer in training.">
+    <title>My Portfolio | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">MyPortfolio<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hello, I'm <span>adeniyi toheeb</span></h1>
+
+                <h2>Frontend Developer in Training</h2>
+
+                <p class="hero-description">
+                    I'm learning how to build beautiful, responsive and
+                    user-friendly websites. This portfolio showcases my
+                    learning journey and the projects I create along the way.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <span>&lt;/&gt;</span>
+                    <p>Code. Learn. Create.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="section-heading">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    I'm an aspiring frontend developer with a growing passion
+                    for technology and web development. I'm currently learning
+                    HTML and CSS and building my foundation one project at a time.
+                </p>
+
+                <p>
+                    My goal is to create websites that are visually appealing,
+                    easy to use, and accessible across different devices.
+                    I'm excited to keep learning, improve my skills, and turn
+                    creative ideas into real websites.
+                </p>
+
+                <a href="#contact" class="btn primary-btn">Let's Connect</a>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills">
+            <div class="section-heading">
+                <p class="section-label">WHAT I'M LEARNING</p>
+                <h2>My <span>Skills</span></h2>
+                <p>Here are the technologies I'm exploring on my journey.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">&lt;/&gt;</div>
+                    <h3>HTML5</h3>
+                    <p>Building the structure and content of web pages.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">✳</div>
+                    <h3>CSS3</h3>
+                    <p>Styling websites and making layouts responsive.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>A technology I'm looking forward to learning next.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects" id="projects">
+            <div class="section-heading">
+                <p class="section-label">MY RECENT WORK</p>
+                <h2>My <span>Projects</span></h2>
+                <p>A collection of projects from my learning journey.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-visual visual-one">
+                        <span>01</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            A responsive website introducing me, my skills,
+                            and my progress as a frontend developer.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="#home" class="project-link">Explore Portfolio ↑</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-two">
+                        <span>02</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Countdown Timer</h3>
+                        <p>
+                            A countdown page created as part of my HTML
+                            and CSS practice.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="#contact" class="project-link">More Details →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-three">
+                        <span>03</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>My Next Project</h3>
+                        <p>
+                            I'm looking forward to creating more projects
+                            as I continue learning and improving.
+                        </p>
+                        <div class="project-tags">
+                            <span>Coming Soon</span>
+                        </div>
+                        <a href="#contact" class="project-link">Stay Tuned →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="section-heading">
+                <p class="section-label">LET'S TALK</p>
+                <h2>Contact <span>Me</span></h2>
+                <p>
+                    Have a question or want to connect? I'd be happy to hear from you.
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-symbol">@</div>
+                <h3>Let's connect!</h3>
+                <p>
+                    I'm always interested in learning, sharing ideas,
+                    and meeting people who love technology.
+                </p>
+                <a href="mailto:yourname@example.com" class="btn primary-btn">
+                    Send Me an Email
+                    adeniyitoheeb568@gmail.com
+            
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Your Name. Built with HTML and CSS.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navLinks = document.getElementById("nav-links");
+
+        menuToggle.addEventListener("click", function () {
+            const isOpen = navLinks.classList.toggle("active");
+            menuToggle.setAttribute("aria-expanded", isOpen);
+            menuToggle.textContent = isOpen ? "✕" : "☰";
+        });
+
+        document.querySelectorAll(".nav-links a").forEach(function (link) {
+            link.addEventListener("click", function () {
+                navLinks.classList.remove("active");
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.textContent = "☰";
+            });
+        });
+
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
